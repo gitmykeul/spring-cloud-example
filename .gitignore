@@ -1,0 +1,27 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings
+bin/
+build/
+logs/
+out/
+newman/
+target/
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+README.html
+.idea/
+*.bak/
+*.iml
+*.pid
+node_modules/
+playground/
+/services/login-service/logFile.log
+.gradle/
+.DS_Store

@@ -1,0 +1,55 @@
+#server:
+#  port: 9999
+#
+#
+#spring:
+#  application:
+#    name: config-server
+#  cloud:
+#    config:
+#      label: feature/ConfigServerDesign
+#      server:
+#        bootstrap: true  #configure itself from its own remote repository (also a client)
+#        git:
+#          uri: ssh://git@cedt-icg-bitbucketcli.nam.nsroot.net:7999/qi/athena-configuration.git
+#          #uri: file:///C://dev/athena-configuration
+#          clone-on-start: true
+#
+#          search-paths: config, config/{application}
+#          timeout: 60
+#          refresh-rate: 20  #default = 0 - no refresh - only if requested
+#          ignoreLocalSshSettings: true
+#          passphrase: passPhrase
+#          private-key: |
+#                       -----BEGIN RSA PRIVATE KEY-----
+#                       Proc-Type: 4,ENCRYPTED
+#                       DEK-Info: AES-128-CBC,28C6CB066FE189A3FE34DB1171DD7767
+#
+#                       lyEnfqiNLDnEVHz3WuPOJOGhlanv0MO6LCULPbPz/7Gew1GmaSN/L7ZPvShXmz5E
+#                       O+5PvQBbhKuhHvvehjAtuA5qbYxmOeuZpjaKkQoocoK4tw9Z+SFN4Jw76NisGwOe
+#                       HKALn/2edrnbWSXOg7tv4DaO129ZSZIh8tmD/ET5w975XP4TN7Ed8VEv+zAEW0ph
+#                       Oy3zz0lG5gPBES1DKL4WixbkJA+AkHSyZ0+ZW+vi74NCABmZOfIEuoUcR9Qzbs+Y
+#                       2qPWfTEakxgs1IY0axJ4O75GkevQXevOSvdjyGoShFo6+QpJPjrjsSoDnFDAKL+8
+#                       6ikRBrZ7/513Og/ig3EVSwnWfep+by0C4fqXIKZu+vrncLyd295d5897sgWNPuMU
+#                       OUdb+z0YUniQ3Gx7p558oNxRzEBpXYgxtPrvbLf7cbJNZGixZNgqNK5L29XGVClr
+#                       o6yzXxkvxWes5KZAqZDWq0wTwMFtrNPTlPmyABVb9oxfvk5LNoaq32lCX5/wkiHc
+#                       fnIxvNSSD3NxrJ6sBRwxKEbGptY7MnXcGfPWbI2KkVDC6GnzS3YVYTrD25ZEXdps
+#                       +7B2OxLKqzxBmdZIiCI+BDTAXE4wT+TIihO+J94dosEJnIycdnfzR6MiVLv2x2RC
+#                       kMSjT+i8EnApVaiMcMapXybWekIQsRqQHjs/yKbhsciF/G4HxBujgt+9plVHkqRL
+#                       V8QgDpbKOFBlfuXiagrDC/mlfXRsnIJUq6lVo09lTR2k+yNYOzltcV2f4D9HhkMG
+#                       JIjNGpE4p4xE3VCUJZIjyDq8cxyXs1L7NAnIjk0YOxZvna07vrftInSMiXGdn8s8
+#                       UtcxD+/d5OeVt6EFBhjqChcVC6UIuHyP3XrY6k5sTqKSmqcSOj6pDfvHV1jiOsdC
+#                       j/rWTn8BlQVaJa3jK2BNDUxTORDdXdl2evZHuDa+CoAqZrKiVpMzBS9FajZcF56Y
+#                       CgxErSUGo6VHyw1ZBKzgjc68txVrD9dm5POHezX8w1cweMQmHbUdJ8kRk/Wj7kQR
+#                       bqB8N+dj9Ql24jO0ZhjpNyTMiX5l60ptdxlz+haqVg1B7KudbO0k6yJcv4sBx+eR
+#                       qkmhX9dYFpi6a7RmwRnr5bVghmueFkysRtJ9t0cQ/ie7d9NcwNgW1v5eiOpNOYL9
+#                       GMfFHh5cQdQq3Hc6GyMNbJ7KknUxjfYTrgkhElnBrkZYsKN2CPAKHkju7lShorjT
+#                       e6oWVLpexwP/DMP8IJ3dCnKWmBDDr/pVzntLMwDpfdxmudr2PVYkI7mZOFCa4wNg
+#                       AjctF1XgUudpeHIeaI155qv+bGfEebryC99UgFaf4d2gWcaj7C+vEu5d8c5G1wYy
+#                       d+Pa1ztPbwVQtfhXGA0v7nZLsF7ceL1RY/Qa9Xv5O60xxNvGLb9bVmsJp9Hg+mK6
+#                       wa1+otTB7pjAiDh8B3tEVGtadWo9n/m7hC8h7XtIcXi6SnmKaPO2gvuzmwVYbW+F
+#                       9PTOIFkKKaw15VKmXOUn/mY0yBxFM8wWD7gw8vXaf63Fzvb6/OGbP2rXc0AxGmoP
+#                       wsxhIJWGlK5t9ehgY1bctbCF3mzPdp/Cl9voHWr95gfBSAON7k2IvgCTF/tr2Z1d
+#                       -----END RSA PRIVATE KEY-----
+#
+#

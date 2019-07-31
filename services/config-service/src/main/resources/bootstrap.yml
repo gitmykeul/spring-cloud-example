@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        bootstrap: true  #configure itself from its own remote repository (also a client)
+        git:
+          uri: file:///C://dev/config-repo-sandbox
+          search-paths: config, config/{application}
+          timeout: 60
+          refresh-rate: 20  #default = 0 - no refresh - only if requested
